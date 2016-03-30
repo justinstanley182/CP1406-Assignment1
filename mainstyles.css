@@ -1,8 +1,16 @@
 @charset "utf-8";
+body {
+	background-color: yellow;
+}
+
 #navbar ul {
 	margain:0px;
 	padding:0px;
 	background-color:#b4ff00;
+	text-align:center;
+	margin-top:0px;
+	margin-left:-10px;
+	margin-right:-10px;
 }
 #navbar li   {
 	list-style:none;
@@ -27,4 +35,26 @@
 #navbar ul li a:active {
 	color:#333333;
 	background-color:#97bfff;
+}
+header {
+	background-color:#8220A0;
+	margin-top: -10px;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+header img {
+	margin-left:1em;
+}
+#steve {
+	width:100%;
+	float:left;
+}
+#sally {
+	width:100%;
+	float:left;
+	clear:left;
+}
+.floatingleft	{
+	float:left;
+	padding-right:1em;
 }
