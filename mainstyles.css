@@ -1,6 +1,11 @@
 @charset "utf-8";
+p   {
+	text-align:justify;
+}
 body {
 	background-color: yellow;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align:justify;
 }
 
 #navbar ul {
@@ -13,8 +18,11 @@ body {
 	margin-right:-10px;
 }
 #navbar li   {
-	list-style:none;
-	display:inline;
+	list-style: none;
+	display: inline;
+	font-family: alexa-std;
+	font-style: normal;
+	font-weight: 400;
 }
 #navbar ul li a {
 	height:20px;
@@ -48,13 +56,55 @@ header img {
 #steve {
 	width:100%;
 	float:left;
+	padding-top:1em;
+	padding-bottom:1em;
 }
 #sally {
 	width:100%;
 	float:left;
 	clear:left;
+	padding-bottom:1em;
+	padding-top:1em;
 }
 .floatingleft	{
 	float:left;
 	padding-right:1em;
+}
+.floatingright	{
+	float:right;
+	padding-left:1em;
+}
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h2  {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.button {
+	display: block;
+	height: 1.5em;
+	width: 6em;
+	background: #b4ff00;
+	text-align: center;
+	border: solid #ff7500;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+}
+a.button {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border:thin solid black;
+}
+tbody tr th {
+	border: medium solid #000000;
+}
+
+td {
+	border: thin solid #000000;
 }
