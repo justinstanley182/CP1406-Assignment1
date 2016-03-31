@@ -3,15 +3,16 @@ p   {
 	text-align:justify;
 }
 body {
-	background-color: yellow;
+	background-color: #E0D77D;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	text-align:justify;
+	text-align: justify;
+	margin-bottom:5em;
 }
 
 #navbar ul {
 	margain:0px;
 	padding:0px;
-	background-color:#b4ff00;
+	background-color:#df3282;
 	text-align:center;
 	margin-top:0px;
 	margin-left:-10px;
@@ -25,27 +26,27 @@ body {
 	font-weight: 400;
 }
 #navbar ul li a {
-	height:20px;
-	margin:0px;
-	padding:0px 10px 0px 10px;
-	border-left:#999999 1px solid;
-	border-top:#999999 1px solid;
-	border-bottom:#999999 1px solid;
-	border-right:#999999 1px solid;
-	color:#333333;
-	text-decoration:none;
-	font-size:14px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	border-left: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+	border-right: #999999 1px solid;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
 }
 #navbar ul li a:hover  {
-	color:#333333;
-	background-color:#ff9900;
+	color:#ffffff;
+	background-color:#1e95ac;
 }
 #navbar ul li a:active {
 	color:#333333;
-	background-color:#97bfff;
+	background-color:#bbff00;
 }
 header {
-	background-color:#8220A0;
+	background-color:#1a8192;
 	margin-top: -10px;
 	margin-left:-10px;
 	margin-right:-10px;
@@ -86,16 +87,26 @@ h2  {
 }
 .button {
 	display: block;
-	height: 1.5em;
-	width: 6em;
-	background: #b4ff00;
+	height: 22px;
+	width: 80px;
+	background: #df3282;
 	text-align: center;
-	border: solid #ff7500;
+	border: solid #df3282;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	
+	color: #FFFFFF;
+	border-radius: 10px;
+	float:top;
+	text-decoration:none;
 }
-a.button {
-	text-decoration: none;
+.button:hover  {
+	color: #FFFFFF;
+	background-color: #df3282;
+	border: solid #1e95ac;
+}
+.button:active  {
+	color:#333333;
+	background-color:#bbff00;
+	border: solid #df3282;
 }
 table {
 	border-collapse: collapse;
